@@ -9,7 +9,6 @@ def numberToWords(num):
     numToStr = str(num)
     wholeNumber = numToStr.split(".")[0]
     decimalParts = numToStr.split(".")[1]
-    print(decimalParts)
 
     # Empty strings to store the words
     decimalPartsToWords = ""
@@ -60,11 +59,7 @@ def numberToWords(num):
             wholeNumberToWords = ones[int(n)] + " Hundred and " + partOfWholeNumber + wholeNumberToWords
             partOfWholeNumber = ""
 
-        # print("Part of whole number: ", partOfWholeNumber)
-        # print("Whole Number: ", wholeNumberToWords)
-
     if i % 3 < 2:
-        # print("Inside")
         wholeNumberToWords = partOfWholeNumber + wholeNumberToWords
 
     # Add the decimal part and return the result
