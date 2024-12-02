@@ -1,0 +1,19 @@
+For my approach, I thought there were two ways I could go about it. 
+
+The first being the current method that is string mapping with lists, which is the approach I used. 
+I selected this approach as it has a clear and straightforward implementation. I try to avoid recursion 
+and only go through each digit once to reduce time complexity.
+
+The second approach would've been using existing libraries such as num2words. I did not select this as 
+it would have dependency on external packages.
+
+The third approach which could've been possible may have involved the use of recursion. 
+This method would break down the problem into smaller sub-problems, solving each recursively and return it 
+with the thousand, million, etc label on every third digit. While this approach can be elegant and concise, 
+it may not be the most efficient in terms of time complexity and could lead to stack overflow issues with 
+very large inputs.
+
+As a student of Artificial Intelligence, another, albeit unconventional, approach 
+involving the use of Large Language Models (LLMs) did cross my mind. This method would leverage a LLM
+to perform the task. However, I deemed this approach to be overkill for such a simple task, as 
+it would introduce unnecessary complexity and computational overhead.
