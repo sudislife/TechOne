@@ -6,6 +6,11 @@ This web application converts numerical monetary values into words (e.g., "three
 
 ### Prerequisites
 
+- Clone the repository:
+    ```bash
+    git clone https://github.com/sudislife/TechOne.git
+    ```
+
 - [Streamlit](https://streamlit.io/) must be installed. You can install it using pip:
     ```bash
     pip install streamlit
