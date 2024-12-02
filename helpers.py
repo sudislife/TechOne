@@ -7,7 +7,7 @@ def numberToWords(num):
     
     # Split the number into whole number and decimal parts
     numToStr = str(num)
-    wholeNumber = numToStr.split(".")[0]
+    wholeNumber = numToStr.split(".")[0].replace("-", "")
     decimalParts = numToStr.split(".")[1][:2]
 
     # Empty strings to store the words
