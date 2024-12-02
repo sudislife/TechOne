@@ -18,7 +18,7 @@ This web application converts numerical monetary values into words (e.g., "three
 
 ### Running the App
 
-To run the web application, use the following command:
+To run the web application, open terminal in the cloned directory and use the following command:
 ```bash
 streamlit run app.py
 ```
